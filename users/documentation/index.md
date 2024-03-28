@@ -21,8 +21,6 @@ Additionally, links to the documention for many other interfaces and related pac
 
 Documentation for specific versions of Stan can be found at the following links:
 
-<details>
-<summary>Older documentation</summary>
 
 | Version | Stan Reference Manual                                                                                                  | Stan Users Guide                                                                                                       | CmdStan Guide                                                                                                    | Stan Functions Reference                                                                                                     |
 |---------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
@@ -43,7 +41,6 @@ Documentation for specific versions of Stan can be found at the following links:
 | 2.20    | [html](https://mc-stan.org/docs/2_20/reference-manual/) [pdf](https://mc-stan.org/docs/2_20/reference-manual-2_20.pdf) | [html](https://mc-stan.org/docs/2_20/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_20/stan-users-guide-2_20.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_20/functions-reference/) [pdf](https://mc-stan.org/docs/2_20/functions-reference-2_20.pdf) |
 | 2.19    | [html](https://mc-stan.org/docs/2_19/reference-manual/) [pdf](https://mc-stan.org/docs/2_19/reference-manual-2_19.pdf) | [html](https://mc-stan.org/docs/2_19/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_19/stan-users-guide-2_19.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_19/functions-reference/) [pdf](https://mc-stan.org/docs/2_19/functions-reference-2_19.pdf) |
 | 2.18    | [html](https://mc-stan.org/docs/2_18/reference-manual/) [pdf](https://mc-stan.org/docs/2_18/reference-manual-2_18.pdf) | [html](https://mc-stan.org/docs/2_18/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_18/stan-users-guide-2_18.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_18/functions-reference/) [pdf](https://mc-stan.org/docs/2_18/functions-reference-2_18.pdf) |
-</details>
 
 # Case Studies and Notebooks
 
