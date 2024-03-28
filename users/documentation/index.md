@@ -10,81 +10,40 @@ image:
 redirect_from: "/documentation/"
 ---
 
-# Stan User's Guide
+# Online Documentation
 
-The Stan user's guide provides example models and programming
-techniques for coding statistical models in Stan.
-It also serves as an example-driven introduction to Bayesian modeling
-and inference.
-For versions 2.18 and later, this is titled _Stan User's Guide_.
-For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
+The latest documentation for the Stan Language, standard library, and the CmdStan interface can be found on
+[mc-stan.org/docs](https://mc-stan.org/docs/).
 
-* [Stan User's Guide 2.34](/docs/stan-users-guide/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
+Additionally, links to the documention for many other interfaces and related packages can be found in the navigation bar there.
 
-* [Stan User's Guide 2.34 pdf](/docs/2_34/stan-users-guide-2_34.pdf)
-<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
+## Version-specific documentation
 
-# Stan Language Reference Manual
+Documentation for specific versions of Stan can be found at the following links:
 
-The manual for Stan's programming language for coding probability models,
-inference algorithms for fitting models and making predictions,
-and posterior analysis tools for evaluating the results.
-This manual applies to all Stan interfaces.
+<details>
+<summary>Older documentation</summary>
 
-* [Stan Language Reference Manual 2.34](/docs/reference-manual/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
-
-
-* [Stan Language Reference Manual 2.34 pdf](/docs/2_34/reference-manual-2_34.pdf)
-<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-
-# Stan Language Functions Reference
-
-The reference for the functions defined in the Stan math
-library and available in the Stan programming language.
-For versions 2.17 and earlier, this is part of the _Stan Reference Manual_.
-
-* [Stan Language Functions Reference 2.34](/docs/functions-reference/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
-
-* [Stan Language Functions Reference 2.34 pdf](/docs/2_34/functions-reference-2_34.pdf)
-<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-
-# Stan Software Development Lifecycle
-
-The software development practices underlying the code managed
-by the Stan project is hosted at
-
-* [Stan Software Development Lifecycle](/docs/sdlc.html)
-
-# CmdStan Documentation 
-
-* [CmdStan User's Guide 2.34](/docs/cmdstan-guide/index.html)
-<span class="note">&nbsp; &nbsp; (html)</span>
-
-* [CmdStan User's Guide 2.34 pdf](/docs/2_34/cmdstan-guide-2_34.pdf)
-<span class="note">&nbsp; &nbsp; (GitHub pdf,&nbsp; CC-BY 4.0 license)</span>
-
-# CmdStanR, CmdStanPy Documentation 
-
-CmdStanPy and CmdStanR provide access to the latest version of Stan,
-or earlier versions, as specified. 
-They use minimal memory beyond what is used by CmdStan itself to
-run and record an analysis, therefore they can be used to fit
-more complex models and/or large datasets.
-
-
-*  [CmdStanR Vignettes, tutorials, and other package information](/cmdstanr) 
-*  [CmdStanPy documentation](/cmdstanpy) 
-
-# RStan Documentation
-
-*  [RStan Vignettes, tutorials, and other package information](/rstan) 
-
-# PyStan Documentation
-
-* [PyStan Documentation on readthedocs.org](https://pystan.readthedocs.org/en/latest/)
+| Version | Stan Reference Manual                                                                                                  | Stan Users Guide                                                                                                       | CmdStan Guide                                                                                                    | Stan Functions Reference                                                                                                     |
+|---------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| 2.34    | [html](https://mc-stan.org/docs/2_34/reference-manual/) [pdf](https://mc-stan.org/docs/2_34/reference-manual-2_34.pdf) | [html](https://mc-stan.org/docs/2_34/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_34/stan-users-guide-2_34.pdf) | [html](https://mc-stan.org/docs/2_34/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_34/cmdstan-guide-2_34.pdf) | [html](https://mc-stan.org/docs/2_34/functions-reference/) [pdf](https://mc-stan.org/docs/2_34/functions-reference-2_34.pdf) |
+| 2.33    | [html](https://mc-stan.org/docs/2_33/reference-manual/) [pdf](https://mc-stan.org/docs/2_33/reference-manual-2_33.pdf) | [html](https://mc-stan.org/docs/2_33/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_33/stan-users-guide-2_33.pdf) | [html](https://mc-stan.org/docs/2_33/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_33/cmdstan-guide-2_33.pdf) | [html](https://mc-stan.org/docs/2_33/functions-reference/) [pdf](https://mc-stan.org/docs/2_33/functions-reference-2_33.pdf) |
+| 2.32    | [html](https://mc-stan.org/docs/2_32/reference-manual/) [pdf](https://mc-stan.org/docs/2_32/reference-manual-2_32.pdf) | [html](https://mc-stan.org/docs/2_32/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_32/stan-users-guide-2_32.pdf) | [html](https://mc-stan.org/docs/2_32/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_32/cmdstan-guide-2_32.pdf) | [html](https://mc-stan.org/docs/2_32/functions-reference/) [pdf](https://mc-stan.org/docs/2_32/functions-reference-2_32.pdf) |
+| 2.31    | [html](https://mc-stan.org/docs/2_31/reference-manual/) [pdf](https://mc-stan.org/docs/2_31/reference-manual-2_31.pdf) | [html](https://mc-stan.org/docs/2_31/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_31/stan-users-guide-2_31.pdf) | [html](https://mc-stan.org/docs/2_31/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_31/cmdstan-guide-2_31.pdf) | [html](https://mc-stan.org/docs/2_31/functions-reference/) [pdf](https://mc-stan.org/docs/2_31/functions-reference-2_31.pdf) |
+| 2.30    | [html](https://mc-stan.org/docs/2_30/reference-manual/) [pdf](https://mc-stan.org/docs/2_30/reference-manual-2_30.pdf) | [html](https://mc-stan.org/docs/2_30/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_30/stan-users-guide-2_30.pdf) | [html](https://mc-stan.org/docs/2_30/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_30/cmdstan-guide-2_30.pdf) | [html](https://mc-stan.org/docs/2_30/functions-reference/) [pdf](https://mc-stan.org/docs/2_30/functions-reference-2_30.pdf) |
+| 2.29    | [html](https://mc-stan.org/docs/2_29/reference-manual/) [pdf](https://mc-stan.org/docs/2_29/reference-manual-2_29.pdf) | [html](https://mc-stan.org/docs/2_29/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_29/stan-users-guide-2_29.pdf) | [html](https://mc-stan.org/docs/2_29/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_29/cmdstan-guide-2_29.pdf) | [html](https://mc-stan.org/docs/2_29/functions-reference/) [pdf](https://mc-stan.org/docs/2_29/functions-reference-2_29.pdf) |
+| 2.28    | [html](https://mc-stan.org/docs/2_28/reference-manual/) [pdf](https://mc-stan.org/docs/2_28/reference-manual-2_28.pdf) | [html](https://mc-stan.org/docs/2_28/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_28/stan-users-guide-2_28.pdf) | [html](https://mc-stan.org/docs/2_28/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_28/cmdstan-guide-2_28.pdf) | [html](https://mc-stan.org/docs/2_28/functions-reference/) [pdf](https://mc-stan.org/docs/2_28/functions-reference-2_28.pdf) |
+| 2.27    | [html](https://mc-stan.org/docs/2_27/reference-manual/) [pdf](https://mc-stan.org/docs/2_27/reference-manual-2_27.pdf) | [html](https://mc-stan.org/docs/2_27/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_27/stan-users-guide-2_27.pdf) | [html](https://mc-stan.org/docs/2_27/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_27/cmdstan-guide-2_27.pdf) | [html](https://mc-stan.org/docs/2_27/functions-reference/) [pdf](https://mc-stan.org/docs/2_27/functions-reference-2_27.pdf) |
+| 2.26    | [html](https://mc-stan.org/docs/2_26/reference-manual/) [pdf](https://mc-stan.org/docs/2_26/reference-manual-2_26.pdf) | [html](https://mc-stan.org/docs/2_26/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_26/stan-users-guide-2_26.pdf) | [html](https://mc-stan.org/docs/2_26/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_26/cmdstan-guide-2_26.pdf) | [html](https://mc-stan.org/docs/2_26/functions-reference/) [pdf](https://mc-stan.org/docs/2_26/functions-reference-2_26.pdf) |
+| 2.25    | [html](https://mc-stan.org/docs/2_25/reference-manual/) [pdf](https://mc-stan.org/docs/2_25/reference-manual-2_25.pdf) | [html](https://mc-stan.org/docs/2_25/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_25/stan-users-guide-2_25.pdf) | [html](https://mc-stan.org/docs/2_25/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_25/cmdstan-guide-2_25.pdf) | [html](https://mc-stan.org/docs/2_25/functions-reference/) [pdf](https://mc-stan.org/docs/2_25/functions-reference-2_25.pdf) |
+| 2.24    | [html](https://mc-stan.org/docs/2_24/reference-manual/) [pdf](https://mc-stan.org/docs/2_24/reference-manual-2_24.pdf) | [html](https://mc-stan.org/docs/2_24/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_24/stan-users-guide-2_24.pdf) | [html](https://mc-stan.org/docs/2_24/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_24/cmdstan-guide-2_24.pdf) | [html](https://mc-stan.org/docs/2_24/functions-reference/) [pdf](https://mc-stan.org/docs/2_24/functions-reference-2_24.pdf) |
+| 2.23    | [html](https://mc-stan.org/docs/2_23/reference-manual/) [pdf](https://mc-stan.org/docs/2_23/reference-manual-2_23.pdf) | [html](https://mc-stan.org/docs/2_23/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_23/stan-users-guide-2_23.pdf) | [html](https://mc-stan.org/docs/2_23/cmdstan-guide/) [pdf](https://mc-stan.org/docs/2_23/cmdstan-guide-2_23.pdf) | [html](https://mc-stan.org/docs/2_23/functions-reference/) [pdf](https://mc-stan.org/docs/2_23/functions-reference-2_23.pdf) |
+| 2.22    | [html](https://mc-stan.org/docs/2_22/reference-manual/) [pdf](https://mc-stan.org/docs/2_22/reference-manual-2_22.pdf) | [html](https://mc-stan.org/docs/2_22/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_22/stan-users-guide-2_22.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_22/functions-reference/) [pdf](https://mc-stan.org/docs/2_22/functions-reference-2_22.pdf) |
+| 2.21    | [html](https://mc-stan.org/docs/2_21/reference-manual/) [pdf](https://mc-stan.org/docs/2_21/reference-manual-2_21.pdf) | [html](https://mc-stan.org/docs/2_21/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_21/stan-users-guide-2_21.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_21/functions-reference/) [pdf](https://mc-stan.org/docs/2_21/functions-reference-2_21.pdf) |
+| 2.20    | [html](https://mc-stan.org/docs/2_20/reference-manual/) [pdf](https://mc-stan.org/docs/2_20/reference-manual-2_20.pdf) | [html](https://mc-stan.org/docs/2_20/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_20/stan-users-guide-2_20.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_20/functions-reference/) [pdf](https://mc-stan.org/docs/2_20/functions-reference-2_20.pdf) |
+| 2.19    | [html](https://mc-stan.org/docs/2_19/reference-manual/) [pdf](https://mc-stan.org/docs/2_19/reference-manual-2_19.pdf) | [html](https://mc-stan.org/docs/2_19/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_19/stan-users-guide-2_19.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_19/functions-reference/) [pdf](https://mc-stan.org/docs/2_19/functions-reference-2_19.pdf) |
+| 2.18    | [html](https://mc-stan.org/docs/2_18/reference-manual/) [pdf](https://mc-stan.org/docs/2_18/reference-manual-2_18.pdf) | [html](https://mc-stan.org/docs/2_18/stan-users-guide/) [pdf](https://mc-stan.org/docs/2_18/stan-users-guide-2_18.pdf) |                                                                                                                  | [html](https://mc-stan.org/docs/2_18/functions-reference/) [pdf](https://mc-stan.org/docs/2_18/functions-reference-2_18.pdf) |
+</details>
 
 # Case Studies and Notebooks
 
@@ -133,11 +92,11 @@ out on the Stan forums.
   <a href="https://epidemiology-stan.github.io/">Stan for Epidemiology</a>
   &nbsp; <span class="note">(GitHub)</span>
   </p>
-  
+
 * <p>
   <a href="https://cognitive-science-stan.github.io/">Stan for Cognitive Science</a>
   &nbsp; <span class="note">(GitHub)</span>
-  </p>  
+  </p>
 
 # The Stan Forums
 
